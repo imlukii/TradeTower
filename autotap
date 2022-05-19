@@ -1,0 +1,7 @@
+-- Script made by luki#8505
+
+_G.autoTap = true;
+while _G.autoTap == true do
+    game:GetService("ReplicatedStorage").Events.ClientClick:FireServer()
+    wait()
+end
